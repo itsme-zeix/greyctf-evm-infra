@@ -99,8 +99,6 @@ def launch_node() -> Dict:
             "--no-rate-limit",
             "--block-base-fee-per-gas",
             "0",
-            "--gas-limit",
-            "0",
             "--gas-price",
             "0",
             "--block-time",
