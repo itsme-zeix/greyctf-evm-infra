@@ -35,7 +35,7 @@ class Action:
 
 def sendTransaction(web3: Web3, tx: Dict) -> Optional[TxReceipt]:
     if "gas" not in tx:
-        tx["gas"] = 10_000_000
+        tx["gas"] = 30_000_000
 
     if "gasPrice" not in tx:
         tx["gasPrice"] = 0
